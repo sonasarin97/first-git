@@ -1,0 +1,19 @@
+---
+title: "Data Science for Public Policy"
+subtitle: "Assignment XX"
+author: "Name - NetID"
+execute:
+  warning: false
+format:
+  html:
+    embed-resources: true
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(data = storms) +
+  geom_point(mapping = aes(x = pressure, y = wind))
+```
